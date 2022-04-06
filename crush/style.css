@@ -1,0 +1,14 @@
+img {
+    display: flex;
+    margin: auto;
+}
+.container {
+    margin-top: 20px;
+}
+p.text-center {
+    font-size: 30px;
+}
+.wrapper-btn {
+    display: flex;
+    justify-content: center;
+}

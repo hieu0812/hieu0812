@@ -1,0 +1,130 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding-top:50px ;
+}
+.footer-heading {
+    display: flex;
+}
+.footer-title {
+    font-size: 26px;
+    font-weight: 500;
+}
+.row-1 .col-lg-6:last-child {
+    display: flex;
+    justify-content: space-between; 
+}
+.row-1 input {
+    display: flex;
+    color: #fff;
+    background-color: #000;
+    border: #fff 1px solid;
+    border-radius: 12px;
+    width: 70%;
+    padding: 10px 10px;
+}
+.row-1 input:focus {
+    outline: none;
+}
+.footer-button {
+    background-color: #40AD87;
+    border-radius: 12px;
+    padding: 11px 20px;
+    align-self: center;
+}
+.footer-button a {
+    color: #fff;
+    text-decoration: none;
+}
+.infor-full {
+    font-size: 12px;
+    line-height: 5px;
+}
+.infor-full a{
+    color: #fff;
+}
+.infor-wrapper {
+    margin-top: 40px;
+}
+.infor {
+    color: #FFFFFF80;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.col-sm-4 .infor-full a {
+    color: #40AD87;
+} 
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.bank {
+    display: flex;
+}
+.coppy-right {
+    font-size: 10px;
+    color: #FFFFFF;
+    opacity: 60%;
+}
+.fb-ig :first-child{
+    margin-right: 7px;
+}
+.bank div {
+    margin: 5px 3.5px;
+}
+.fb-ig {
+    opacity: 50%;
+}
+
+
+/* responsive */
+@media (max-width:1200px) {
+    .infor-full {
+        font-size: 10px ;
+    }
+}
+
+@media (max-width:992px) {
+    .row-1 {
+        flex-wrap: wrap;
+    }
+    .infor {
+        font-size: 13px;
+    }
+    .infor-full {
+        font-size: 9px;
+        line-height: 12px;
+    }
+}
+@media (max-width:576px) {
+    .col-12 {
+        text-align: center;
+    }
+    .fb-ig {
+        margin-left: 10px;
+    }
+    .row-2 {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .col-sm-8 {
+        display: none;
+    }
+    .row-1 .col-lg-6:last-child {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .infor-full {
+        font-size: 14px;
+    }
+    .infor {
+        font-size: 24px;
+    }
+}
+@media (max-width:440px) {
+    .row-1 input {
+        width: 50%;
+    }
+    
+}

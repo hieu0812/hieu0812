@@ -1,0 +1,259 @@
+body {
+    background-color: #FAFAFB !important;
+    font-family: "Roboto", sans-serif;
+}
+
+.trading {
+    display: flex;
+    color: white;
+    margin: 0px !important;
+}
+
+/* ========== CONTENT LEFT: CARD ========== */
+.trading__card {
+    background-color: #1D2646;
+    height: 100vh;
+    padding: 0px 70px;
+}
+.trading__card__heading {
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.trading__card__greeting {
+    color: #A0A2ae;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
+.trading__card__content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.trading__input {
+    border: 0px;
+    display: flex;
+    width: 100%;
+    height: 47px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 0 30px;
+    background: #fff;
+    outline: unset;
+}
+
+.trading__label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 9px;
+}
+
+.username {
+    margin-right: 80px;
+}
+
+.a__forgot__password {
+    margin-left: 9px;
+    font-size: 18px;
+    color: white;
+}
+
+.a__forgot__password:hover {
+    color: #A0A2ae;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-btn__item {
+    align-items: center;
+    width: 152px;
+    height: 44px;
+    border-radius: 44px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+    margin-top: 22px;
+    outline: unset !important;
+}
+
+.form-btn--sign_in {
+    background-color: #FFC700;
+    margin-right: 40px;
+}
+
+.form-btn--sign_in:hover {
+    background-color: white;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    cursor: pointer;
+}
+
+.form-btn--sign_up {
+    background-color: #1D2646;
+    border: 1px solid white;
+}
+
+.form-btn--sign_up:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #1D2646;
+    cursor: pointer;
+}
+
+.trading__images {
+    text-align: center;
+}
+/* ========== END CONTENT LEFT: CARD ========== */
+
+
+
+/* ========== CONTENT RIGHT: IMAGES ========== */
+.img__bike {
+    width: 317px;
+    margin-top: 150px;
+}
+/* ========== END CONTENT RIGHT: IMAGES ========== */
+
+
+
+/* ========== RESPONSIVE ========== */
+@media screen and (max-width: 1200px) {
+    .trading__card {
+        padding: 0px 40px;
+    }
+    .trading__card__heading {
+        margin-top: 82px;
+        margin-bottom: 23px;
+    }
+    .trading__card__greeting {
+        margin-bottom: 59px;
+    }
+
+    .trading__label {
+        margin-bottom: 8px;
+    }
+    .username {
+        margin-right: 50px;
+    }
+    .img__bike {
+        margin-top: 147px;
+        margin-left: -26px;
+    }
+    .form-btn--sign_in {
+        margin-right: 32px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .username{
+        margin-right: 30px;
+    }
+    .trading__card {
+        padding: 0px 30px;
+    }
+    .img__bike {
+        width: 250px;
+    }
+    .img__bike {
+        margin-top: 160px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .trading__card {
+        background-color: #00bcd4;
+        padding: 0px 50px;
+    }
+    .trading {
+        position: relative;
+    }
+    .trading__images{
+        position: unset !important;
+    }
+    .img__bike {
+        position: absolute;
+        width: 140px;
+        margin: 0px;
+        right: 22%;
+        top: 215px;
+    }
+    .form-btn--sign_up {
+        background-color: #00bcd4;
+    }
+
+    .trading__card__content {
+        display: grid;
+    }
+    .trading__input {
+        border-radius: 10px;
+        height: 28px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .form-btn__item {
+        width: 130px;
+        height: 36px;
+        border-radius: 32px;
+        font-size: 14px;
+    }
+
+    .trading__card__heading {
+        margin-top: 138px;
+        margin-bottom: 13px;
+        font-size: 38px;
+    }
+    .trading__card__greeting {
+        font-size: 16px;
+        margin: 0px 0px 114px;
+        color: #99e4ee;
+    }
+    .trading__label {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-bottom: 6px;
+    }
+    .a__forgot__password {
+        margin-left: 0px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .username {
+        margin-right: 0px;
+        margin-bottom: 14px;
+    }
+
+    .label--username {
+        margin-bottom: 7px;
+    }
+
+    .input--password {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .trading__card {
+        padding: 0px 20px;
+    }
+    .img__bike {
+        width: 120px;
+        right: 15%;
+        top: 225px;
+    }
+    .form-btn__item {
+        width: 120px;
+        height: 32px;
+    }
+}
+/* ========== END RESPONSIVE ========== */
+
+
+
+
+

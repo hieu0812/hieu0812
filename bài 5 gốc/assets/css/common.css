@@ -1,0 +1,26 @@
+/* ========== COMMON ========== */
+/* Những class nào dùng chung thì thả vào đây: ví dụ */
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+.f20 {
+    font-size: 20px;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* Dùng các class này vào bên html, đỡ phải viết css. */
+
+
+/* ========== END COMMON ========== */

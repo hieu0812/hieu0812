@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <link rel="icon" href="./assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- libs -->
+    <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap4/css/bootstrap.css">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="assets/font/font-roboto.css">
+    <link rel="stylesheet" href="assets/font/font-open_sans.css">
+
+    <!-- my style -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+<div class="trading row">
+    <div class="trading__card col-md-7 col-xs-12">
+        <h2 class="trading__card__heading">Sign in</h2> 
+        <p class="trading__card__greeting">Welcome back! Please login to your account.</p>
+        <div class="trading__card__content">
+            <div class="trading__card__content__item username">
+                <label class="trading__label label--username">Email (*)</label>
+                <input class="trading__input input--username"/>
+            </div>
+            <div class="trading__card__content__item password">
+                <label class="trading__label label--password">Password (*)</label>
+                <input class="trading__input input--password"/>
+                <a class="a__forgot__password" href="https://xtradingglobal.com/login/identify">Forgot</a>
+            </div>
+        </div>
+        <div class="trading__card__form-btn">
+            <button class="form-btn__item  form-btn--sign_in">Sign in</button>
+            <button class="form-btn__item  form-btn--sign_up"
+                    onclick="window.location.href='https://xtradingglobal.com/sign-up'">Sign up
+            </button>
+        </div>
+    </div>
+    <div class="trading__images col-md-5">
+        <img class="img__bike" src="./assets/images/signup-background.png">
+    </div>
+</div>
+<script type="text/javascript" src="assets/libs/bootstrap4/js/bootstrap.js"></script>
+</body>
+
+</html>

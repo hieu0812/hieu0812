@@ -1,0 +1,321 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;;
+}
+.banner__logo-svg {
+    fill: rgb(238, 77, 45);
+    display: block;
+    height: 39px;
+    margin-top: 15px;
+    margin-left: 190px;
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    background-color: #fff;
+}
+.logo-brand {
+    display: flex;
+}
+.login {
+    margin-top: 27px;
+    margin-left: 15px;
+    font-size: 21px;
+}
+.login p {
+    font-size: 24px;
+}
+.help {
+    margin-right: 175px;
+    margin-top: 31px;
+    font-size: 14px;
+}
+.help a {
+    color:#f16764 ;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    height: 600px;
+    background-color: #ee4d2d;
+    background-image: url(https://cf.shopee.vn/file/88e9cc95389600adb8d95bc1e3330788) ;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position:center center;
+}
+form {
+    height: 482px;
+    width: 397px;
+    background-color: #fff;
+    margin-left: 880px;
+    border-radius: 6px;
+}
+.content {
+    padding-top: 60px;
+}
+.head-form {
+    /* height: 100px; */
+    padding-top: 43px;
+    padding-left: 30px;
+    padding-bottom: 9px;
+}
+.head-form p {
+    font-size: 20px;     
+}
+.input {
+    margin-top: 30px;
+    margin-left: 30px;
+    /* outline: none;   */
+    display: flex;
+    color: rgba(0,0,0.6)  ;
+    
+}
+::placeholder {
+    color: rgba(0, 0, 0, 0.26);
+}
+input:focus{
+    border-color: #757575;
+    outline: none;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    
+}
+
+
+input {
+    /* outline-color: rgb(229,151,0); */
+    border-radius: 2px;
+    height: 40px;   
+    width: 340px; 
+    /* outline: none;  */
+    /* text-align: center;  */
+    border: solid 1px #DBDBDB;
+    /* color: #757575; */
+    color: inherit;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 10px;
+    padding-left: 16px !important;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+.login-button {
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+.login-button button {
+    height: 40px;   
+    width: 340px; 
+    outline: none; 
+    text-align: center;
+    background-color: #f3836c;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.login-help {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.login-help a {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #05a !important;
+}
+.show-password {
+    width: 55px;
+    outline: none;
+    border: none;
+}
+
+.slide {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+
+}
+.left-slide , .right-slide {
+    /* border-bottom: 1px solid #ececec; */
+    height: 1px;
+    background-color: #dbdbdb;
+    width: 100%     ;
+    display: flex;
+    flex :1;
+    line-height: 16px;
+    font-size: 14px;
+}
+.left-slide {
+    margin-right: 10px;
+}
+.right-slide {
+    margin-left: 10px;
+}
+.password {
+    position: relative;
+}
+.fa-eye {
+    position: absolute;
+    right: 45px;
+    top: 11px;
+}
+span {
+    color: #dbdbdb;
+    font-size: 12px;
+}
+.fa-facebook {
+    background-color: #1877f2;
+}
+.menu-button {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.facebook-button {
+    display: flex;
+    background-color: #1877f2;
+    color: #fff;
+    height: 40px;
+    width: 110px;
+    align-items: center ;
+    justify-self: space-around;
+    padding: 0px 10px;
+    /* width: 25%; */
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.facebook-button p {
+    /* margin-left: 10px; */
+    margin-left: 30px;
+    font-size: 14px;
+}
+.google-button {
+    display: flex;
+    background-color: #4285f4;
+    color: #fff;
+    height: 40px;
+    align-items: center ;
+    justify-self: space-around;
+    padding: 0px;
+    padding-right: 10px;
+    /* margin-left: 10px; */
+    /* width: 25%; */
+    width: 103px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.fa-google {
+    color: #fff;
+    /* border: 1px solid  ; */
+    position: absolute;
+    left: 15px;
+}
+
+.google-button p {
+    font-size: 14px;
+    padding: 25px;
+    padding-left: 0;
+    margin-left: 40px;
+    /* position: absolute; */
+}
+
+.apple-button {
+    /* width: 25%; */
+    width: 103px;
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+    color: #fff;
+    background-color:black;
+    align-items: center ;
+    justify-self: space-around;
+    padding: 0px 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.apple-button p {
+    font-size: 14px;
+    margin-left: 36px;
+}
+
+.register {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.register a {
+    color: #ee4d2d;;
+}
+.register p {
+    color: #cbd2d8;
+    font-weight: 0;
+}
+.google-logo {
+    
+    width: 80px !important;
+    height: 66px !important;
+    /* position: absolute; */
+    background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a9e27c05087330a9581e4b9b39ad4417.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -76px -37px;
+    
+}
+.facebook-logo {
+    width: 100% !important;
+    height: 100% !important;
+    /* position: absolute; */
+    background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a9e27c05087330a9581e4b9b39ad4417.png) ;
+    background-repeat: no-repeat;
+    background-size: 270% 153%;
+    background-position: -48px 0px;
+}
+.apple-logo {
+    width: 100% !important;
+    height: 100% !important;
+    /* position: absolute; */
+    background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a9e27c05087330a9581e4b9b39ad4417.png) ;
+    background-repeat: no-repeat;
+    background-size: 189% 105%;
+    background-position: 2px 3px;
+}
+.wapper-logo-gg {
+    height: 38px !important;
+    width: 38px !important;
+    background-color :#fff ;
+    position: absolute;
+    border: 1px solid #4285f4 ;
+}
+.wapper-logo-fb {
+    height: 37px !important;
+    width: 37px !important;
+    background-color :#1877F2 ;
+    position: absolute;
+    left: 910px;
+    /* border: 1px solid #4285f4 ; */
+}
+.wapper-logo-ap {
+    height: 40px !important;
+    width: 40px !important;
+    background-color :rgb(0, 0, 0) ;
+    position: absolute;
+    left:1144px;
+    /* border: 1px solid #4285f4 ; */
+}
